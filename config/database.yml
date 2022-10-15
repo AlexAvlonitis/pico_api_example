@@ -1,0 +1,7 @@
+# https://rom-rb.org/5.0/learn/sql/#general-connection-options
+
+default:
+  adapter: 'sql'
+  connection_string: <%= ENV['DB_CONNECTION_STRING'] %>
+  options:
+    encoding: 'utf8'
