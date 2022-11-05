@@ -5,3 +5,9 @@ default:
   connection_string: <%= ENV['DB_CONNECTION_STRING'] %>
   options:
     encoding: 'utf8'
+
+test:
+  adapter: 'memory'
+  connection_string: <%= ENV['DB_CONNECTION_STRING'] %>
+  options:
+    encoding: 'utf8'

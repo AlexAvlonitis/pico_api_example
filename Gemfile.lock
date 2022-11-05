@@ -1,15 +1,15 @@
 PATH
   remote: ../pico_api
   specs:
-    pico_api (0.0.1)
-      erb
-      jsonapi-serializer
-      rackup
-      rake
-      roda
-      rom
-      rom-sql
-      zeitwerk
+    pico_api (0.0.2)
+      erb (~> 2)
+      jsonapi-serializer (~> 2)
+      rackup (~> 0.2)
+      rake (~> 13)
+      roda (~> 3)
+      rom (~> 5)
+      rom-sql (~> 3.5)
+      zeitwerk (~> 2.6)
 
 GEM
   remote: https://rubygems.org/
@@ -20,7 +20,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     byebug (11.1.3)
-    cgi (0.3.2)
+    cgi (0.3.3)
     coderay (1.1.3)
     concurrent-ruby (1.1.10)
     dotenv (2.8.1)
@@ -81,7 +81,7 @@ GEM
       rack (>= 3.0.0.beta1)
       webrick
     rake (13.0.6)
-    roda (3.60.0)
+    roda (3.61.0)
       rack
     rom (5.2.6)
       rom-changeset (~> 5.2, >= 5.2.3)
@@ -110,14 +110,14 @@ GEM
       dry-types (~> 1.0)
       rom (~> 5.2, >= 5.2.1)
       sequel (>= 4.49)
-    sequel (5.60.1)
+    sequel (5.62.0)
     sqlite3 (1.5.0)
       mini_portile2 (~> 2.8.0)
     transproc (1.1.1)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     webrick (1.7.0)
-    zeitwerk (2.6.0)
+    zeitwerk (2.6.4)
 
 PLATFORMS
   ruby
